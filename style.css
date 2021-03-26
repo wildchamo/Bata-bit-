@@ -5,9 +5,26 @@
 4.Visuales
 5.otras cositas
 */
+
 :root{
+    /*Colores! */
+    --bitcoin-orange:#F7931A;
+    --soft-orange:#FFE9D5;
+    --secondary-blue:#1A9AF7;
+    --soft-blue:#E7F5FF;
+    --warm-black:#201E1C;
+    --warm-black1:#282623;
+    --gray:#BABABA;
+    --off-white:#FAF8F7;
+    --just-white:#FFFFFF;
+     
+}
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+}
+html{
+    font-size: 62.5;
+    font-family: 'Dm sans',sans-serif;
 }
