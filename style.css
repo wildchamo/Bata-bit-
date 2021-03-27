@@ -219,3 +219,9 @@ main{
     line-height: 1.5rem;
     font-weight: 300;
 }
+
+.main--section3{
+    background-color: var(--warm-black);
+    width: 100%;
+    height: auto;
+}
