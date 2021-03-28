@@ -260,6 +260,98 @@ main{
     font-weight: 500;
     line-height: 1.8rem;
 }
-.product-cards-container{
-    
+.product-detail--card{
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black1);
+    border: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
 }
+.icon-card{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#clock{
+   
+    background-image: url('/assets/icons/clock.svg');
+}
+#eye {
+    background-image: url('/assets/icons/eye.svg')
+}
+
+#dolar {
+    background-image: url('/assets/icons/dollar-sign.svg');
+}
+#circle{
+    background-image: url('/assets/icons/check-circle.svg');
+}
+
+.product-card-encabezado{
+margin-bottom: 15px;
+font-size: 1.8rem;
+font-weight: bold;
+line-height: 1.8rem;
+color: var(--just-white);
+}
+.product-card-texto{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--gris-seccion3);
+    }
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url(/assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.main--section3 h2{
+    padding-top:60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+
+}
+.main--section4{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom:70px;
+    text-align: center;
+}
+.main--section4 .plans-title{
+    width: 90%;
+    min-width: 288px;
+    height:auto;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.main--section4 .plans-title h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    margin-bottom: 50px;
+}
+
+.main--section4 .plans-title p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--gris-seccion3);
+}
+
