@@ -146,7 +146,7 @@ main{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: auto;
     margin: 0 auto; /*arriba abajo nada, a los lados lo cuadra en el centro*/
     font-family: "Inter",sans-serif;
 }
@@ -210,9 +210,16 @@ main{
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
+    margin-bottom: 35px;
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius:8px ;
+}
+.tabla-azul .currency-table--date{
+    background-color:#E7F5FF;    
+}
+.tabla-azul .currency-table--title{
+    color: var(--secondary-blue);
 }
 .currency-table--date p{
     font-size: 1.2rem;
