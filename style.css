@@ -356,7 +356,7 @@ color: var(--just-white);
 }
 .plans--container-card{
     position: relative;
-    width: 70%;
+    width: 68%;
     min-width: 230px;
     max-width: 300px;
     height:250px;
@@ -371,11 +371,19 @@ position: absolute;
 top: -10px;
 width: 120px;
 height: 31px;
-background-color: var(--bitcoin-orange);
 border-radius: 8px;
 color: var(--just-white);
 left: calc(50% - 60px);
 padding-top: 8px;
+}
+.mensual .recomendado{
+    background-color: var(--bitcoin-orange);
+}
+.anual .recomendado{
+    background-color: royalblue;
+}
+.foreva .recomendado{
+    background-color: teal;
 }
 
 .plan-info-container h3{
@@ -412,11 +420,10 @@ padding-top: 8px;
     font-size: 12px;
     line-height: 1.4rem;   
 }
-.plan-card--ca{
+.plan-card--ca {
     width: 150px;
     height: 48px;
     margin-top: 8px;
-    border:2px solid var(--bitcoin-orange);
     background-color: #faf8f7;
     border-radius: 10px;
     padding-top: 0px;
@@ -426,3 +433,21 @@ padding-top: 8px;
     line-height: 1.8rem;
     color: var(--warm-black);
 }
+.mensual .plan-card--ca{
+    border:2px solid var(--bitcoin-orange);
+}
+.anual .plan-card--ca {
+    border:2px solid royalblue;
+}
+
+.foreva .plan-card--ca {
+    border:2px solid teal;
+}
+.plan-card--ca span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
+}
+
