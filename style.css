@@ -368,36 +368,61 @@ color: var(--just-white);
 }
 .recomendado{
 position: absolute;
-
+top: -10px;
+width: 120px;
+height: 31px;
+background-color: var(--bitcoin-orange);
+border-radius: 8px;
+color: var(--just-white);
+left: calc(50% - 60px);
+padding-top: 8px;
 }
+
 .plan-info-container h3{
     margin: 0 auto;
     font-size: 14px;
-    line-height: 18px;
+    font-weight: 500px;
+    line-height: 1.8rem;
     font-family: "DM Sans",sans-serif;
-    padding-top: 31px;
+    padding-top: 30px;
     padding-bottom:8px ;
+    
 }
 .plan-card--price{
-font-size: 52px;
-line-height: 62,93px;
-font-weight: bold;
-font-family: "Inter",sans-serif;
+    padding: 5px 0;
+    font-size: 5.2rem;
+    line-height: 5.3rem;
+    font-weight: bold;
+    font-family: "Inter",sans-serif;
+    color: var(--warm-black);
 
 }
+.plan-card--price span{
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.52px;
+    vertical-align: 25px;
+    padding: 0;
+}
 .plan-card--saving{
-    padding-top:16px ;
+    padding-top:16px;
     font-family: "Inter",sans-serif;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14,52px;   
+    line-height: 1.4rem;   
 }
 .plan-card--ca{
-    border:1px var(--bitcoin-orange);
-    background-color: var(--just-white);
-    padding: 15px;
+    width: 150px;
+    height: 48px;
+    margin-top: 8px;
+    border:2px solid var(--bitcoin-orange);
+    background-color: #faf8f7;
+    border-radius: 10px;
+    padding-top: 0px;
     font-family: "DM Sans",sans-serif;
     font-weight: bold;
     font-size: 14px;
-    line-height: 18,23px;
+    line-height: 1.8rem;
+    color: var(--warm-black);
 }
