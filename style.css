@@ -90,13 +90,14 @@ header img{
     text-decoration: none;
     color: var(--warm-black);
 }
-.header--button span{
+.header--button {
     display: inline-block;
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('assets/icons/down-arrow.svg');
+    
 }
+
 main{
     width: 100%;
     height: auto;
@@ -376,7 +377,7 @@ color: var(--just-white);
     width: 68%;
     min-width: 190px;
     max-width: 300px;
-    height:250px;
+    height:260px;
     margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--just-white);
@@ -465,8 +466,17 @@ padding-top: 8px;
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('assets/icons/orange-right-arrow.svg');
     vertical-align: text-bottom;
+}
+.plan-card--ca .span-basic{
+    background-image: url('assets/icons/orange-right-arrow.svg');
+}
+.plan-card--ca .span-anual{
+    background-image: url('assets/icons/arrow-rightblue.svg');
+    
+}
+.plan-card--ca .span-foreva{
+    background-image: url('assets/icons/arrow-rightteal.svg');
 }
 
 footer{
